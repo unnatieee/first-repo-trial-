@@ -5,7 +5,7 @@ Author - Unnati
 </br>
 this is my first repo 
 <br>
-im currently persuing AI at svnit
+I'm currently pursuing AI at svnit
 </br>
 
 
