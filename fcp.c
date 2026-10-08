@@ -3,14 +3,12 @@
 int main()
 
 {
-int i= 1 , n ;
+int n ;
  printf("Enter the value of n : ");
  scanf("%d" , &n);
 
-    while(i<=n )
-    {
-        printf("%d \n" , i);
-        i++;
-    }
- 
+ for (i=1 ; i<=n ; i++);
+{
+ printf("%d \n" , i);
+}
 }
