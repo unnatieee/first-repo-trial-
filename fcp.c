@@ -3,12 +3,12 @@
 int main()
 
 {
-   int marks;
+   char alphabet;
 
-   printf("Enter your marks :");
-   scanf("%d" , &marks);
+   printf("Enter your alphabet :");
+   scanf("%d" , &alphabet);
 
-   marks >30 && marks <=100 ? printf("PASS") : printf("FAIL");
+   alphabet >=A && alphabet <=B ? printf("CAPITAL") : printf("SMALL");
    
 }
 
