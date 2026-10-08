@@ -3,13 +3,12 @@
 int main()
 
 {
-   char alphabet;
-
-   printf("Enter your alphabet :");
-   scanf("%d" , &alphabet);
-
-   alphabet >=A && alphabet <=B ? printf("CAPITAL") : printf("SMALL");
-   
+int i= 1;
+   while (i<=5){
+      printf("%d" , i)
+         i++;
+      
+   }
 }
 
 
