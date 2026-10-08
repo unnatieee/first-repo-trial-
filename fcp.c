@@ -8,15 +8,8 @@ int main()
    printf("Enter your marks :");
    scanf("%d" , &marks);
 
-   if (marks <=30){
-            printf("FAIL");
-        }
-    else if (marks > 30 && marks < 100){
-            printf("PASS");
-        }
-    else {
-            printf("INCORRECT MARKS");
-    }
+   marks >30 && marks <=100 ? printf("PASS") : printf("FAIL");
+   
 }
 
 
